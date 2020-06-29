@@ -4,10 +4,10 @@ import React from "react";
 //   return <h1>Hello Dhanunjaya</h1>;
 // } // Function method
 
-const Greet = (Props) => {
+const Greet = (props) => {
   return (
     <h1>
-      Hello {Props.Name} a.k.a {Props.Designation}
+      Hello {props.Name} a.k.a {props.Designation}
     </h1>
   );
 }; //Arrow method

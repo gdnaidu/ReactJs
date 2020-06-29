@@ -23,7 +23,7 @@ class App extends Component {
         <Greet Name="Dhanunjaya" Designation="SharePoint Developer" />
         <Greet Name="Chinna" Designation="Mechanic" />
         <Greet Name="Tirupathi" Designation="Farmer" />
-        <Welcome />
+        <Welcome Name="Dhanunjaya" Designation="SharePoint Developer" />
         <Hello />
       </div>
     );
